@@ -37,8 +37,11 @@ export default class MapView extends Component{
             <MapContainer 
                 center={position}
                 zoom={11}
-                style={{ height: "70vh", width: "100%", zIndex: "-1" }}
-                scrollWheelZoom={false}
+                style={{ height: "70vh", width: "100%", zIndex: "1", pointerEvents: "auto" }}
+                scrollWheelZoom={true}
+                zoomControl={false}
+                zoomAnimation={true}
+                touchZoom={"center"}
                 >
                     <CenterView center={position} />
                     <TileLayer
