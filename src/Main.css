@@ -52,6 +52,10 @@
     pointer-events: all;
 }
 
+.search_container > input:active {
+    
+}
+
 #btn {
     color: #fff;
     border: 3px solid black;
@@ -61,6 +65,7 @@
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     transition-timing-function: ease ;
+    pointer-events: all;
 }
 
 #btn:hover {

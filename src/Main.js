@@ -53,7 +53,11 @@ class Main extends Component {
                 <div className="upper_box">
                     <h2 id="top">IP Address Tracker</h2>
                     <div className="search_container">
-                        <input id="ip_input" type="text" placeholder="Search for any IP address or domain"></input>
+                        <input
+                            id="ip_input" 
+                            type="text" 
+                            placeholder="Search for any IP address or domain"
+                            on></input>
                         <IconButton id="btn" onClick={this.handleClick}>
                             <ArrowForwardIosIcon />
                         </IconButton>
