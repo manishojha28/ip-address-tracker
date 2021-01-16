@@ -49,6 +49,7 @@
     align-items: center;
     outline: none;
     cursor: pointer;
+    pointer-events: all;
 }
 
 #btn {
