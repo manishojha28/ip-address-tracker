@@ -25,16 +25,15 @@
 }
 
 .search_container {
-    padding: 0;
     position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 90%;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 1rem;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-53%);
 
 }
 
@@ -72,7 +71,7 @@
     position:absolute;
     top:30%;
     left:50%;
-    transform:translate(-50%, -30%);
+    transform:translate(-53%, -30%);
     z-index: 1000;
     padding: 0.625rem;
     background-color: #fff;
