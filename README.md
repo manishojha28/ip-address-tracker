@@ -4,7 +4,11 @@ Get the details of any IP Address using this application.
 
 ![App Demo](/src/images/demo.jpeg)
 
-Check out the live demo of the final result: [](https://manishojha28.github.io/ip-address-tracker/).
+- Used [IP Geolocation API - ipify](https://geo.ipify.org/) to get the details of IP Addresses.
+
+- Used [Leaflet JS](https://leafletjs.com/) and [React Leaflet](https://react-leaflet.js.org/) for generating Maps.
+
+\*Check out the live demo of the final result: [here](https://manishojha28.github.io/ip-address-tracker/).
 
 # create-react-app
 
@@ -19,7 +23,7 @@ The package.json file provides four scripts:
 
 # Instructions
 
-1. Clone the project repository: git clone [](https://github.com/AlterClassIO/react-car-configurator)
+1. Clone the project repository: git clone https://github.com/AlterClassIO/react-car-configurator
 
 2. Navigate to the project folder: cd react-car-configurator
 
